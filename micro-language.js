@@ -14,7 +14,7 @@ const {
   sequenceOf,
   between,
   lazy
-} = require('./index');
+} = require('./lib');
 
 
 const betweenBrackets = between(str('('), str(')'));
